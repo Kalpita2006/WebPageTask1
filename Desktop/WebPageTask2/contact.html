@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form Validation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+<h2>Contact Form</h2>
+
+<form id="contactForm">
+
+<label for ="name">Name:</label>
+<input type="text" id="name">
+<span id="nameError" class="error"></span>
+
+<label for="email">Email:</label>
+<input type="text" id="email">
+<span id="emailError" class="error"></span>
+
+<label for="phone">Phone Number:</label>
+<input type="text" id="phone">
+<span id="phoneError" class="error"></span>
+
+<label for="message">Message:</label>
+<textarea id="message"></textarea>
+<span id="messageError" class="error"></span>
+
+<button type="submit">Submit</button>
+
+</form>
+
+</div>
+
+<div class="todo-section">
+
+<h2>My To-Do List</h2>
+
+<input type="text" id="taskInput" placeholder="Enter new task">
+
+<button onclick="addTask()">Add Task</button>
+
+<ul id="taskList"></ul>
+
+</div>
+
+<div class="gallery-section">
+
+<h2>Image Gallery</h2>
+
+<input type="text" id="imageInput" placeholder="Paste image URL here">
+
+<button onclick="addImage()">Add Image</button>
+
+<div id="gallery"></div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
