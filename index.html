@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basics of Web Development using HTML, CSS and JavaScript</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<h1 id="mainHeading">Basics of Web Development</h1>
+
+
+<!-- INTRODUCTION -->
+
+<h2>Introduction</h2>
+
+<p>
+Hello! My name is Kalpita. This webpage is created as part of my Web Development Task-1.
+It explains the basics of web development using HTML, CSS and JavaScript.
+</p>
+
+<p>
+Web development is the process of creating websites using technologies like
+HTML for structure, CSS for styling, and JavaScript for interactivity.
+</p>
+
+<img src="image/htmlcssjs.png" alt="htmlcssjs Image" width="300">
+
+
+<!-- HTML SECTION -->
+
+<h2>HTML – Structure of Webpage</h2>
+
+<p>
+HTML stands for HyperText Markup Language. It is used to create the structure
+of webpages using headings, paragraphs, images and links.
+</p>
+
+<!-- HEADING SECTION -->
+
+<h2>Heading Tags</h2> 
+<p>This is representation of Heading tags</p>
+<p>the tag used for heading is &lt;h1&gt; to &lt;h6&gt;</p> 
+<p>Heading tags are used to define titles and subtitles on a webpage.<br>
+    HTML provides six heading tags from &lt;h1&gt; to &lt;h6&gt;.<br>
+    &lt;h1&gt; is the largest heading and &lt;h6&gt; is the smallest heading.
+</p>
+
+<img src="image/HeadingTag.png" alt="Heading Tag Image" width="300">
+
+<!-- PARAGRAPH SECTION -->
+
+<h2>Paragraph Tag</h2>
+ <p>This is representation of paragraph tag</p>
+ <p> The paragraph tag is used to write text content on a webpage.<br>
+     It is written using the &lt;p&gt; tag.<br>
+     Paragraph tags help organize text into readable sections. </p>
+<img src="image/ParagraphTag.png" alt="Paragraph Tag Image" width="300">
+
+
+<!-- IMAGE SECTION -->
+
+<h2>Image tag</h2>
+ <p>This is representation of image tag</p> 
+<p> The image tag is used to display images on a webpage.<br>
+     It is written using the &lt;img&gt; tag.<br>
+     The &lt;img&gt; tag requires the 'src' attribute to specify the image source and the 'alt' attribute for alternative text.
+</p>
+
+<img src="image/ImageTag.png" alt="Image Tag Image" width="300">
+
+<!-- ANCHOR SECTION -->
+
+<h2>Anchor Tag</h2> 
+<p>This is representation of anchor tag</p>
+<p> The anchor tag is used to create hyperlinks on a webpage.<br> 
+    It is written using the &lt;a&gt; tag.<br>
+    The &lt;a&gt; tag requires the 'href' attribute to specify the URL of the link.
+</p>
+
+<img src="image/AnchorTag.png" alt="Anchor Tag Image" width="300">
+
+
+<p>Example Using Anchor Tag</p>
+
+<a href="https://www.linkedin.com/in/kalpita-tarkar-1626a9230">
+Visit My LinkedIn Profile
+</a>
+
+
+
+<!-- CSS SECTION -->
+
+<h2>CSS – Styling the Webpage</h2>
+
+<p>
+CSS stands for Cascading Style Sheets. It is used to style and design webpages.
+CSS helps change colors, fonts, spacing, alignment and layout to make webpages
+more attractive and user-friendly.
+</p>
+
+<p>
+In this webpage, CSS is applied using an external stylesheet called
+style.css to improve the appearance of headings, paragraphs, images,
+buttons and overall layout.
+</p>
+
+<img src="image/CSS.png" alt="CSS Image" width="300">
+
+<dl>
+    <dt>Selector : </dt>
+    <dd>tells CSS which HTML element you want to style (e.g., p, h1, .class, #id).</dd>
+    <dt>Property : </dt>
+    <dd>defines the aspect of the element you want to change (e.g., color, font-size, margin).</dd>
+    <dt>Value : </dt>  
+    <dd>specifies the setting for the property (e.g., red, 16px, 10px).</dd>
+    <dt>closing brace : </dt>
+    <dd>represents the end of a CSS rule.</dd>
+</dl>
+
+
+<!-- JAVASCRIPT SECTION -->
+
+<h2>JavaScript – Adding Interactivity</h2>
+
+
+<img src="image/script.png" alt="JavaScript Image" width="300">
+
+<dl>
+    <dt>document.getElementById("elementID")DOM Access : </dt>
+    <dd>This line tells JavaScript to find an element in the HTML page by its unique id.<br>
+        Example: If you have &lt;button id="messageBtn"&gt;Click Me&lt;/button&gt;, this code grabs that button.
+</dd>
+    <dt>.onclick = function()Event Handler : </dt>
+    <dd>This attaches an event listener to the element.<br>
+        It means: “When the user clicks this element, run the following function.”<br>
+        The function() { ... } block defines what happens when the click occurs.
+</dd>
+    <dt>alert("Message here");Alert Function : </dt>  
+    <dd>Inside the function, this command shows a popup alert box with the text you specify.<br>
+        Example: alert("Welcome!") will display a small popup saying “Welcome!” when the button is clicked.
+</dd>
+    <dt>closing brace : </dt>
+    <dd>This marks the end of the function block.<br>
+        Everything between { ... } is the code that runs when the event happens.
+</dd>
+</dl>
+
+<p>Click the button to display a message.</p>
+
+<button id="messageBtn">Click Me</button>
+
+<p id="message"></p>
+
+
+
+<script src="script.js"></script>
+
+
+</body>
+
+</html>
