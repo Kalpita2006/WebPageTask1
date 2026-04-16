@@ -28,6 +28,7 @@ Web development is the process of creating websites using technologies like
 HTML for structure, CSS for styling, and JavaScript for interactivity.
 </p>
 
+<img src="image/htmlcssjs.png" alt="htmlcssjs Image" width="300">
 
 
 <!-- HTML SECTION -->
@@ -39,9 +40,10 @@ HTML stands for HyperText Markup Language. It is used to create the structure
 of webpages using headings, paragraphs, images and links.
 </p>
 
+<!-- HEADING SECTION -->
 
 <h2>Heading Tags</h2> 
-<p>this is respresentation for Heading</p>
+<p>This is representation of Heading tags</p>
 <p>the tag used for heading is &lt;h1&gt; to &lt;h6&gt;</p> 
 <p>Heading tags are used to define titles and subtitles on a webpage.<br>
     HTML provides six heading tags from &lt;h1&gt; to &lt;h6&gt;.<br>
@@ -50,19 +52,20 @@ of webpages using headings, paragraphs, images and links.
 
 <img src="image/HeadingTag.png" alt="Heading Tag Image" width="300">
 
+<!-- PARAGRAPH SECTION -->
 
 <h2>Paragraph Tag</h2>
- <p>this is respresentation for paragraph</p>
+ <p>This is representation of paragraph tag</p>
  <p> The paragraph tag is used to write text content on a webpage.<br>
      It is written using the &lt;p&gt; tag.<br>
      Paragraph tags help organize text into readable sections. </p>
 <img src="image/ParagraphTag.png" alt="Paragraph Tag Image" width="300">
 
 
-
+<!-- IMAGE SECTION -->
 
 <h2>Image tag</h2>
- <p>this is respresentation for image</p> 
+ <p>This is representation of image tag</p> 
 <p> The image tag is used to display images on a webpage.<br>
      It is written using the &lt;img&gt; tag.<br>
      The &lt;img&gt; tag requires the 'src' attribute to specify the image source and the 'alt' attribute for alternative text.
@@ -70,8 +73,10 @@ of webpages using headings, paragraphs, images and links.
 
 <img src="image/ImageTag.png" alt="Image Tag Image" width="300">
 
+<!-- ANCHOR SECTION -->
 
-<h2>Anchor Tag</h2> <p>this is respresentation for link</p> 
+<h2>Anchor Tag</h2> 
+<p>This is representation of anchor tag</p>
 <p> The anchor tag is used to create hyperlinks on a webpage.<br> 
     It is written using the &lt;a&gt; tag.<br>
     The &lt;a&gt; tag requires the 'href' attribute to specify the URL of the link.
@@ -122,8 +127,28 @@ buttons and overall layout.
 
 <h2>JavaScript – Adding Interactivity</h2>
 
+
 <img src="image/script.png" alt="JavaScript Image" width="300">
 
+<dl>
+    <dt>document.getElementById("elementID")DOM Access : </dt>
+    <dd>This line tells JavaScript to find an element in the HTML page by its unique id.<br>
+        Example: If you have &lt;button id="messageBtn"&gt;Click Me&lt;/button&gt;, this code grabs that button.
+</dd>
+    <dt>.onclick = function()Event Handler : </dt>
+    <dd>This attaches an event listener to the element.<br>
+        It means: “When the user clicks this element, run the following function.”<br>
+        The function() { ... } block defines what happens when the click occurs.
+</dd>
+    <dt>alert("Message here");Alert Function : </dt>  
+    <dd>Inside the function, this command shows a popup alert box with the text you specify.<br>
+        Example: alert("Welcome!") will display a small popup saying “Welcome!” when the button is clicked.
+</dd>
+    <dt>closing brace : </dt>
+    <dd>This marks the end of the function block.<br>
+        Everything between { ... } is the code that runs when the event happens.
+</dd>
+</dl>
 
 <p>Click the button to display a message.</p>
 
@@ -134,6 +159,7 @@ buttons and overall layout.
 
 
 <script src="script.js"></script>
+
 
 </body>
 
